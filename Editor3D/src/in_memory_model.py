@@ -10,7 +10,7 @@ class IModelChanger:
 
 class ModelStore(IModelChanger):
 
-    def __init__(self, changeObserver: List[ImodelChangeObserver])
+    def __init__(self, changeObserver: List[ImodelChangeObserver]):
         self.Models = []
         self.Scenas = []
         self.Flashes = []
