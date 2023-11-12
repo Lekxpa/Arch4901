@@ -6,7 +6,7 @@ import ModelElements.Camera;
 import ModelElements.Flash;
 import ModelElements.PoligonalModel;
 import ModelElements.Scena;
-import Stuff.Types.Texture;
+import Stuff.Texture;
 
 
 public class ModelStore implements IModelChanger{

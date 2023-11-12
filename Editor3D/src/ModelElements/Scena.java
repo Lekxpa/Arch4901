@@ -13,7 +13,10 @@ public class Scena {
 
 
     public Scena(int id, List<PoligonalModel> models, List<Flash> flashes, List<Camera> cameras){
-        
+        this.Id = id;
+        this.Models = models;
+        this.Flashes = flashes;
+        this.Cameras = cameras;
     }
 
 
@@ -22,8 +25,8 @@ public class Scena {
     }
 
 
-    public Type method2(Type type){
-        return type;
+    public Type method2(Type type1, Type type2){
+        return type1;
     }
 
 }

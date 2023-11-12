@@ -1,7 +1,7 @@
 package ModelElements;
 
-import Stuff.Types.Point3D;
-import Stuff.Types.Angle3D;
+import Stuff.Point3D;
+import Stuff.Angle3D;
 import java.awt.Color;
 
 
