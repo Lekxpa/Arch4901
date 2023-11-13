@@ -12,11 +12,19 @@ public class Scena {
     public List<Camera> Cameras;
 
 
-    public Scena(int id, List<PoligonalModel> models, List<Flash> flashes, List<Camera> cameras){
+    public Scena(int id, List<PoligonalModel> models, List<Flash> flashes, List<Camera> cameras) throws Exception {
         this.Id = id;
-        this.Models = models;
+        if (models.size() > 0) {
+            this.Models = models;
+        }else{
+            throw new Exception("Должна быть одна модель");
+        }
         this.Flashes = flashes;
-        this.Cameras = cameras;
+        if (cameras.size() > 0) {
+            this.Cameras = cameras;
+        }else{
+            throw new Exception("Должна быть одна камера");
+        }
     }
 
 
