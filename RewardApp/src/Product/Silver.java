@@ -4,6 +4,6 @@ public class Silver extends ItemReward{
 
     @Override
     public void open(){
-        System.out.println("this is a Silver");
+        System.out.println("Silver");
     }
 }

@@ -8,5 +8,10 @@ public abstract class ItemGenerator {
         createItem().open();
     }
     public abstract IGameItem createItem();
-       
+
+    @Override
+    public String toString(){
+        return getClass().getName();
+        
+    }
 }
